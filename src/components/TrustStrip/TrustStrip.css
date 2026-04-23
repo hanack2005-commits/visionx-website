@@ -1,0 +1,46 @@
+.trust-strip {
+  padding: 26px 20px 70px;
+  background: #020617;
+}
+
+.trust-strip-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.trust-strip-title {
+  color: #94a3b8;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-size: 13px;
+}
+
+.trust-strip-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.trust-badge {
+  padding: 18px 14px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #0f172a, #111c34);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #cbd5e1;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .trust-strip-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .trust-strip-grid {
+    grid-template-columns: 1fr;
+  }
+}

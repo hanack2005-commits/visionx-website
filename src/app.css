@@ -1,0 +1,60 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f7f9fc;
+  color: #111;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Section spacing */
+.section {
+  padding: 60px 0;
+}
+
+/* Titles */
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #3b82f6;
+  border-radius: 25px;
+  color: #3b82f6;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #3b82f6;
+  color: #fff;
+}
